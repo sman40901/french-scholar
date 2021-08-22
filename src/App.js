@@ -5,11 +5,13 @@ import Router from './components/Router';
 
 // hoisting the state 
 
+const MainTitle="French Scholar";
+
 function App() {
   return(
     <div className="App">
       <center>
-        <h1>French Scholar</h1>
+        <h1>{MainTitle}</h1>
         {/* <NavBar/> */}
         <Router/>
       </center>
