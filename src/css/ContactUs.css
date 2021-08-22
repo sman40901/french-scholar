@@ -1,0 +1,7 @@
+table {
+  margin: 1em;
+  border: 3px double green;
+  border-right-style: dashed;
+  border-left-width: 17px;
+  border-bottom-color: orange;
+}

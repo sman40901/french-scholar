@@ -9,12 +9,11 @@ import { CounterButtonPage } from '../pages/CounterButtonPage';
 //import {CongratulationsMessage} from './PeopleListPage'
 // import {useState} from 'react';
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import ContactUs from '../pages/ContactUs';
 // import { Link } from 'react-router-dom';
 //import {PeopleListItem} from './PeopleListItem'
 
 // hoisting the state 
-
-
 
 
 function Router() {
@@ -26,14 +25,14 @@ function Router() {
           <nav>
             <Link to="/">Home</Link> |  
             <Link to="/counter">Counter</Link> |   
-            <Link to="/peopleList">PeopleList</Link> |  
+            <Link to="/contact">Contact Us</Link> |  
           </nav>
           <Switch>
             <Route path="/counter">
               <CounterButtonPage />
             </Route>
-            <Route path="/peopleList">
-              <PeopleListPage />
+            <Route path="/contact">
+              <ContactUs />
             </Route>
             <Route path="/" exact>
               <HomePage />
