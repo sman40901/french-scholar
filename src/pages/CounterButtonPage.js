@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
-import {CounterButton} from '../CounterButton'
-import {CongratulationsMessage} from '../CongratulationsMessage'
+import {CounterButton} from '../components/CounterButton'
+import {CongratulationsMessage} from '../components/CongratulationsMessage'
 import { useParams, useLocation } from 'react-router';
 import {parse}  from 'query-string';
 

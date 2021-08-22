@@ -4,9 +4,6 @@ import NavBar from './components/NavBar';
 
 // hoisting the state 
 
-
-
-
 function App() {
   return(
     <div className="App">

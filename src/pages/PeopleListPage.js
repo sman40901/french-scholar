@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {PeopleList} from '../PeopleList'
+import {PeopleList} from '../components/PeopleList'
 
 const people =[{
     name : 'Ho',
