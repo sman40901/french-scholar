@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import NavBar from './components/NavBar';
+// import { NavBar } from './components/NavBar';
+import Router from './components/Router';
 
 // hoisting the state 
 
@@ -9,7 +10,8 @@ function App() {
     <div className="App">
       <center>
         <h1>French Scholar</h1>
-        <NavBar/>
+        {/* <NavBar/> */}
+        <Router/>
       </center>
     </div>
   );
