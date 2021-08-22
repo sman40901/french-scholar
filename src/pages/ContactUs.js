@@ -7,7 +7,7 @@ function ContactUs(/*{ addCustomer }*/) {
 
     const [verified, setVerified] = React.useState(false);
 
-    const onVerify = e => {
+    const onVerify = (event) => {
         setVerified(true);
     };
 
@@ -44,7 +44,7 @@ function ContactUs(/*{ addCustomer }*/) {
             <h1>{FormTitle}</h1>
             {/* <form onSubmit={event=>handleSubmit(event)}> */}
             <form onSubmit={handleSubmit}>
-                <table border="0">
+                <table border="0" className="formtable">
                     <tr>
                         <td>
                             First Name :
