@@ -28,9 +28,6 @@ function Router() {
             <Link to="/counter">Counter</Link> |   
             <Link to="/peopleList">PeopleList</Link> |  
           </nav>
-          {/* <Route path="/">
-            <HomePage/>
-          </Route> */}
           <Switch>
             <Route path="/counter">
               <CounterButtonPage />

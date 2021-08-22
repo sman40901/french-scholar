@@ -8,7 +8,7 @@ export const PageNotFound = () => //(props) => // named export, forces us to use
 
     return(
         <>
-           <h1>NOT FOUND</h1>
+           <h1>404 Page NOT FOUND</h1>
         </>
     );
 
