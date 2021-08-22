@@ -3,6 +3,7 @@ import Reaptcha from "reaptcha";
 import '../css/ContactUs.css';
 
 function ContactUs(/*{ addCustomer }*/) {
+    const FormTitle = "Please contact us with your questions!";
 
     const [verified, setVerified] = React.useState(false);
 
@@ -40,7 +41,7 @@ function ContactUs(/*{ addCustomer }*/) {
 
     return (
         <div className="table-responsive">
-            <h3>Fill in your details</h3>
+            <h1>{FormTitle}</h1>
             {/* <form onSubmit={event=>handleSubmit(event)}> */}
             <form onSubmit={handleSubmit}>
                 <table border="0">
@@ -144,9 +145,11 @@ function ContactUs(/*{ addCustomer }*/) {
                     </tr>
                     <tr>
                         <td colSpan="2">
-                            <input type="submit"
-                                className="btn btn-default btn-success"
-                                value="Submit!" />
+                            <center>
+                                <input type="submit"
+                                    className="btn btn-default btn-success"
+                                    value="Submit!" />
+                            </center>
                         </td>
                     </tr>
                 </table>
