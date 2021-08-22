@@ -123,7 +123,7 @@ function ContactUs(/*{ addCustomer }*/) {
                     </tr>
                     <tr>
                         <td>
-                            Problem statement :
+                            Message :
                         </td>
                         <td>
                             <textarea
