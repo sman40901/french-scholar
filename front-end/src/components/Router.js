@@ -24,13 +24,13 @@ function Router() {
         <BrowserRouter>
           <nav>
             <Link to="/">Home</Link> |  
-            <Link to="/counter">Counter</Link> |   
+            {/* <Link to="/counter">Counter</Link> |    */}
             <Link to="/contact">Contact Us</Link> |  
           </nav>
           <Switch>
-            <Route path="/counter">
+            {/* <Route path="/counter">
               <CounterButtonPage />
-            </Route>
+            </Route> */}
             <Route path="/contact">
               <ContactUs />
             </Route>

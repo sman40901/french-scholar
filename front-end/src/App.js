@@ -5,15 +5,19 @@ import Router from './components/Router';
 
 // hoisting the state 
 
-const MainTitle="French Scholar";
+const MainTitle = "French Scholar";
+
+// const logo = require();
 
 function App() {
-  return(
+  return (
     <div className="App">
       <center>
-        <h1>{MainTitle}</h1>
+        {/* <img src='./logo.svg' alt='logo'/> */}
+        <img src='./resources/logo/logo6.png' alt="logo" />
+        {/* <h1>{MainTitle}</h1> */}
         {/* <NavBar/> */}
-        <Router/>
+        <Router />
       </center>
     </div>
   );
